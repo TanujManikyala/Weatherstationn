@@ -30,7 +30,7 @@
 
 As illustrated in the following image below this project aims to build a simple weather station that records temperature and humidity using an ESP32, a DHT11 sensor, and an RGB LED lamp for debugging. The measurements are then transmitted to AWS IoT Core utilizing WIFI and the MQTT transport protocol. Furthermore, the data is automatically stored into a Timestream database so that it can be quired and represented using graphs with Grafana Cloud.
 
-![Architecture](https://github.com/TanujManikyala/Weatherstationn/images/AWS_IoT.png)
+![Architecture](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/AWS_IoT.png)
 
 ## Objective
 
@@ -137,20 +137,20 @@ For the project the following Ultimate Starter Kit from Freenove was used which 
 
 For the code development of this project is done on a Windows machine using Thonny which is an open-source python IDE with a simple interface but great features making it a great option for beginners. To download and install Thonny follow the guide on the official website: https://thonny.org . The next step is to connect your ESP32 device to your computer using a USB cable. Afterward, it should be made sure that the computer has the CH340 driver installed. If the Driver is installed “USB-SERIAL CH340 (COMx)” should be visible under the port when going to "This PC" -> "Manage" -> "Device Manager" -> "Ports (COM & LPT)" as seen in the picture below.
 
-![COMx](https://github.com/TanujManikyala/Weatherstationn/images/port.jpg)
+![COMx](https://github.com/TanujManikyala/Weatherstationnblob/main/images/port.jpg)
 
 ---
 
 If not then the driver can be downloaded from here: https://www.wch-ic.com/search?q=CH340&t=downloads. 
 Afterward, in order to run Python programs on ESP32, firmware must be burned first. For this project version v1.18 (2022-01-17) .bin can be downloaded from the official micropython webpage here: https://micropython.org/download/esp32spiram/. Once the firmware is download Thonny is used to burn it into the ESP32 (must be connected with USB to the computer) as illustrated in the following images.
 
-![burning_firmware_1](https://github.com/TanujManikyala/Weatherstationn/images/burning_firmware_1.png)
+![burning_firmware_1](https://github.com/TanujManikyala/Weatherstationn/blob/4b8f27e076b1bb11bee3eb00fe78a658997ba322/blob/main/images/burning_firmware_1.png)
 
 
-![burning_firmware_2](https://github.com/TanujManikyala/Weatherstationn/images/burning_firmware_2.jpg)
+![burning_firmware_2](https://github.com/TanujManikyala/Weatherstationn/blob/4b8f27e076b1bb11bee3eb00fe78a658997ba322/blob/main/images/burning_firmware_2.jpg)
 
 
-![burning_firmware_3](https://github.com/TanujManikyala/Weatherstationn/images/burning_firmware_3.jpg)
+![burning_firmware_3](https://github.com/TanujManikyala/Weatherstationn/blob/4b8f27e076b1bb11bee3eb00fe78a658997ba322/blob/main/images/burning_firmware_3.jpg)
 
 ---
 
@@ -164,7 +164,7 @@ This section contains circuit and hardware diagrams for the project. Diagrams fo
 
 ### DHT11
 
-![DHT11](https://github.com/TanujManikyala/Weatherstationn/images/DHT11.png)
+![DHT11](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/DHT11.png)
 
 1. VCC Power supply pin (within the range 3.3V-5.5V).
 2. SDA Data pin used to communicate with other devices.
@@ -173,19 +173,19 @@ This section contains circuit and hardware diagrams for the project. Diagrams fo
 
 ---
 
-![circuit_diagram_DHT11](https://github.com/TanujManikyala/Weatherstationn/images/circuit_diagram_DHT11.png)
+![circuit_diagram_DHT11](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/circuit_diagram_DHT11.png)
 
 ---
 
-![material_DHT11](https://github.com/TanujManikyala/Weatherstationn/images/material_DTH11.png)
+![material_DHT11](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/material_DTH11.png)
 
-![hardware_connection_DHT11](https://github.com/TanujManikyala/Weatherstationn/images/hardware_connection_diagram_DHT11.jpg)
+![hardware_connection_DHT11](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/hardware_connection_diagram_DHT11.jpg)
 
 
 
 ### RGBLED Lamp
 
-![RGBLED_lamp](https://github.com/TanujManikyala/Weatherstationn/images/RGBLED_Lamp.jpg)
+![RGBLED_lamp](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/RGBLED_Lamp.jpg)
 
 1. S Pin for input control signal.
 2. V Power suply pin (+3.5V~5.5V ).
@@ -193,13 +193,13 @@ This section contains circuit and hardware diagrams for the project. Diagrams fo
 
 ---
 
-![circuit_diagram_RGBLED](https://github.com/TanujManikyala/Weatherstationn/images/circuit_diagram_RGBLEDLamp.png)
+![circuit_diagram_RGBLED](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/circuit_diagram_RGBLEDLamp.png)
 
 ---
 
-![material_RGBLED](https://github.com/TanujManikyala/Weatherstationn/images/material_RGBLED.jpg)
+![material_RGBLED](https://github.com/TanujManikyala/Weatherstationn/blob/9a1b3535833003a298e29271ab8333b5d6a8f5b1/blob/main/images/material_RGBLED.jpg)
 
-![hardware_connection_RGBLED](https://github.com/TanujManikyala/Weatherstationn/images/hardware_connection_diagram_RGBLEDLamp.jpg)
+![hardware_connection_RGBLED](https://github.com/TanujManikyala/Weatherstationn/blob/9a1b3535833003a298e29271ab8333b5d6a8f5b1/blob/main/images/hardware_connection_diagram_RGBLEDLamp.jpg)
 
 
 
@@ -344,26 +344,26 @@ All values received by AWS IoT Core are automatically saved to an AWS Timestream
 
 The data stored on the database are then queried using Grafana Cloud and the results are represented in the form of graphs as illustrated below.
 
-![Graphs](https://github.com/TanujManikyala/Weatherstationn/images/graphs.png)
+![Graphs](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/graphs.png)
 
-For more info on how to connect Timestream to AWS IoT Core and use Grafana Cloud to represent the data follow this picture guide [here](https://github.com/TanujManikyala/Weatherstationn/TimeStream_Grafana_SetUp.md)
+For more info on how to connect Timestream to AWS IoT Core and use Grafana Cloud to represent the data follow this picture guide [here](https://github.com/TanujManikyala/Weatherstationn/blob/08158b22d2ee5177bca8ffdfbcb81605da573078/TimeStream_Grafana_SetUp.md)
 
 ## Final Results
 
 The following pictures illustrate the ESP32 with all the parts put together.
 
-![Final_Result_1](https://github.com/TanujManikyala/Weatherstationn/images/microcontroller_1.jpg)
+![Final_Result_1](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/microcontroller_1.jpg)
 
-![Final_Result_2](https://github.com/TanujManikyala/Weatherstationn/images/microcontroller_2.jpg)
+![Final_Result_2](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/microcontroller_2.jpg)
 
 ---
 Messages arriving in AWS IoT Core
 
-![aws_mqqt](https://github.com/TanujManikyala/Weatherstationn/images/iot_mqqt.png)
+![aws_mqqt](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/iot_mqqt.png)
 
 ---
 Data representation in Grafana.
 
-![data_graph](https://github.com/TanujManikyala/Weatherstationn/images/graphs.png)
+![data_graph](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/graphs.png)
 
 The whole process of creating the project went smoothly and no major problems occurred during the development of either hardware or software. Some things that could have been done differently would be upgrading to a microcontroller with LORA support as well as updating the sensors to build a resilient enough outdoor weather station.
