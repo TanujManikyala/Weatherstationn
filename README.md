@@ -144,13 +144,13 @@ For the code development of this project is done on a Windows machine using Thon
 If not then the driver can be downloaded from here: https://www.wch-ic.com/search?q=CH340&t=downloads. 
 Afterward, in order to run Python programs on ESP32, firmware must be burned first. For this project version v1.18 (2022-01-17) .bin can be downloaded from the official micropython webpage here: https://micropython.org/download/esp32spiram/. Once the firmware is download Thonny is used to burn it into the ESP32 (must be connected with USB to the computer) as illustrated in the following images.
 
-![burning_firmware_1](https://github.com/TanujManikyala/Weatherstationn/blob/4b8f27e076b1bb11bee3eb00fe78a658997ba322/images/burning_firmware_1.png)
+![burning_firmware_1](https://github.com/TanujManikyala/Weatherstationn/images/burning_firmware_1.png)
 
 
-![burning_firmware_2](https://github.com/TanujManikyala/Weatherstationn/blob/4b8f27e076b1bb11bee3eb00fe78a658997ba322/images/burning_firmware_2.jpg)
+![burning_firmware_2](https://github.com/TanujManikyala/Weatherstationn/images/burning_firmware_2.jpg)
 
 
-![burning_firmware_3](https://github.com/TanujManikyala/Weatherstationn/blob/4b8f27e076b1bb11bee3eb00fe78a658997ba322/images/burning_firmware_3.jpg)
+![burning_firmware_3](https://github.com/TanujManikyala/Weatherstationn/images/burning_firmware_3.jpg)
 
 ---
 
@@ -197,9 +197,9 @@ This section contains circuit and hardware diagrams for the project. Diagrams fo
 
 ---
 
-![material_RGBLED](https://github.com/TanujManikyala/Weatherstationn/blob/9a1b3535833003a298e29271ab8333b5d6a8f5b1/images/material_RGBLED.jpg)
+![material_RGBLED](https://github.com/TanujManikyala/Weatherstationn/images/material_RGBLED.jpg)
 
-![hardware_connection_RGBLED](https://github.com/TanujManikyala/Weatherstationn/blob/9a1b3535833003a298e29271ab8333b5d6a8f5b1/images/hardware_connection_diagram_RGBLEDLamp.jpg)
+![hardware_connection_RGBLED](https://github.com/TanujManikyala/Weatherstationn/images/hardware_connection_diagram_RGBLEDLamp.jpg)
 
 
 
@@ -346,7 +346,7 @@ The data stored on the database are then queried using Grafana Cloud and the res
 
 ![Graphs](https://github.com/TanujManikyala/Weatherstationn/images/graphs.png)
 
-For more info on how to connect Timestream to AWS IoT Core and use Grafana Cloud to represent the data follow this picture guide [here](https://github.com/TanujManikyala/Weatherstationn/blob/08158b22d2ee5177bca8ffdfbcb81605da573078/TimeStream_Grafana_SetUp.md)
+For more info on how to connect Timestream to AWS IoT Core and use Grafana Cloud to represent the data follow this picture guide [here](https://github.com/TanujManikyala/Weatherstationn/TimeStream_Grafana_SetUp.md)
 
 ## Final Results
 
