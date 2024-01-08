@@ -17,62 +17,62 @@ Follow this link to set up Grafana cloud https://grafana.com/
 
 If you have followed the official tutorial by AWS on how to set up IoT Core with python the exact same steps as shown in the pictures can be followed.
 
-![TimeStream_Graphana_1](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_1.jpg)
+![TimeStream_Graphana_1](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_1.jpg)
 
-![TimeStream_Graphana_2](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_2.jpg)
+![TimeStream_Graphana_2](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_2.jpg)
 
-![TimeStream_Graphana_3](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_3.jpg)
+![TimeStream_Graphana_3](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_3.jpg)
 
 
 ## Create The TimeStream Database
 
-![TimeStream_Graphana_4](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_4.jpg)
+![TimeStream_Graphana_4](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_4.jpg)
 
-![TimeStream_Graphana_5](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_5.jpg)
+![TimeStream_Graphana_5](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_5.jpg)
 
 ## Create a Table In The TimeStream Database
 
-![TimeStream_Graphana_6](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_6.jpg)
+![TimeStream_Graphana_6](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_6.jpg)
 
-![TimeStream_Graphana_7](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_7.jpg)
+![TimeStream_Graphana_7](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_7.jpg)
 
 ## Finishing With the Rule
-![TimeStream_Graphana_8](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_8.jpg)
+![TimeStream_Graphana_8](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_8.jpg)
 
-![TimeStream_Graphana_9](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_9.jpg)
+![TimeStream_Graphana_9](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_9.jpg)
 
 ## Creating New User For Acessing the Timestream Database Through Graphana
 
-![TimeStream_Graphana_10](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_10.jpg)
+![TimeStream_Graphana_10](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_10.jpg)
 
-![TimeStream_Graphana_11]([images\TimeStream_Graphana_11.png](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_11.jpg))
+![TimeStream_Graphana_11]([images\TimeStream_Graphana_11.png](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_11.jpg))
 
-![TimeStream_Graphana_12](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_12.jpg)
+![TimeStream_Graphana_12](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_12.jpg)
 
-![TimeStream_Graphana_13](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_13.jpg)
+![TimeStream_Graphana_13](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_13.jpg)
 
 
 The Credinentials as shown in the below pictrure will be used to in Graphana to establish a connection with the TimeStream Database
 
-![TimeStream_Graphana_14](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_14.jpg)
+![TimeStream_Graphana_14](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_14.jpg)
 
 ## Connecting Graphana to Timestream Database
 
-![TimeStream_Graphana_15](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_15.jpg)
+![TimeStream_Graphana_15](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_15.jpg)
 
-![TimeStream_Graphana_16](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_16.jpg)
+![TimeStream_Graphana_16](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_16.jpg)
 
-![TimeStream_Graphana_17](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_17.jpg)
+![TimeStream_Graphana_17](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_17.jpg)
 
-![TimeStream_Graphana_18](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_18.jpg)
+![TimeStream_Graphana_18](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_18.jpg)
 
 ## Representing the Data
 
 Create a time series dash board and add the following queries
 
-![TimeStream_Graphana_19](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_19.png)
+![TimeStream_Graphana_19](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_19.png)
 
-![TimeStream_Graphana_20](https://github.com/M-Gkiko/ESP32_AWS_Weatherstation/blob/d7fc25878c6e38161db975ba503bfdc00bdd586f/images/TimeStream_Graphana_20.png)
+![TimeStream_Graphana_20](https://github.com/TanujManikyala/Weatherstationn/blob/main/images/TimeStream_Graphana_20.png)
 
 ```sql
 
